@@ -1,0 +1,348 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Testing Sidebars in small browser</title>
+<link rel="icon" href="images/ourjavalogo1.png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/Introductionstyle.css" />
+<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+<link rel="stylesheet" type="text/css" href="css/style1.css" />
+<link rel="stylesheet" type="text/css" href="css/fstyle.css" />
+<link rel="stylesheet" type="text/css" href="css/styles.css" />
+<link href="css/perspectiveRules.css" rel="stylesheet" />
+<style> 
+
+.sidebar.left { margin-left: -80%;
+padding-bottom: 25em; }
+
+.sidebar.right { float: right; 
+padding-bottom: 20em;}
+
+</style>
+
+<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+
+<script src="https://code.jquery.com/jquery-latest.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+<script type="text/javascript">
+		$(document).ready(function() {
+			$.fn.fullpage({
+				slidesColor: ['#f2f2f2', '#E6E6FA'],
+				anchors: ['firstPage', 'secondPage']
+			});
+		});
+	</script>
+
+
+</head>
+
+
+<div class="section active" id="section0">
+
+<div id="demo1"><!-- for background parallax in first page-->
+  <img alt="background"src="images/bannerpagebackground.jpg" class = "responsive" />
+  <div id="particle-target" ></div>
+</div>
+
+
+</div>
+
+<div class="section" id="section1">
+<div class="slide active">
+<div class="wrap">
+
+<header>
+  <nav>
+    <div id="brand">
+      <div id="logo"></div>
+      <div id="word-mark"></div>
+    </div>
+    <div id="menu">
+      <div id="menu-toggle">
+        <div id="menu-icon">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div id="hero-section">
+    <div id="head-line"></div>
+  </div>
+</header>
+
+
+<body>
+<div class="wrapper">
+
+  <!-- Main content section -->
+  <div class="main"><a href="#" class="btn left"><span class="left-open"></span>More </a> <a href="#" class="btn right"><span class="right-open"></span>More </a>
+  <div class="scrollable-content">
+ <div class = "ui stackable grid">
+
+    <a class="grid__item" href="Javadownloads.html">
+            <h2 class="title title--preview">Java Downloads</h2>
+            <div class="loader"></div>
+            <span class="category">Java-Distributions</span>
+            <div class="meta meta--preview">  
+            </div>
+          </a>
+
+           <a class="grid__item" href="javaIntroduction.html">
+            <h2 class="title title--preview">Java Introduction</h2>
+            <div class="loader"></div>
+            <span class="category">Methods Page</span>
+            <div class="meta meta--preview">
+            </div>
+          </a>
+              
+          <a class="grid__item" href="Exercisepage.html">
+            <h2 class="title title--preview">Java Exercises</h2>
+            <div class="loader"></div>
+            <span class="category">Programming test</span>
+            <div class="meta meta--preview">
+            </div>
+          </a>
+
+          <a class="grid__item" href="#">
+            <h2 class="title title--preview">Code Examples</h2>
+            <div class="loader"></div>
+            <span class="category">Examples of Code</span>
+            <div class="meta meta--preview">
+            </div>
+          </a>
+
+          <a class="grid__item" href="#">
+            <h2 class="title title--preview">Java History</h2>
+            <div class="loader"></div>
+            <span class="category">The History of Java</span>
+            <div class="meta meta--preview">
+            </div>
+          </a>
+
+          <a class="grid__item" href="#">
+            <h2 class="title title--preview">Java Quiz</h2>
+            <div class="loader"></div>
+            <span class="category">Quiz based on the History of Java</span>
+            <div class="meta meta--preview">
+            </div>
+          </a>
+
+          <a class="grid__item" href="#">
+            <h2 class="title title--preview">Help</h2>
+            <div class="loader"></div>
+            <span class="category">A page which will help you with questions</span>
+            <div class="meta meta--preview">
+            </div>
+          </a>
+
+          <a class="grid__item" href="#">
+            <h2 class="title title--preview">IDES</h2>
+            <div class="loader"></div>
+            <span class="category">What IDE to use</span>
+            <div class="meta meta--preview">
+            </div>
+          </a>
+
+          <a class="grid__item" href="#">
+            <h2 class="title title--preview">Java Implemented</h2>
+            <div class="loader"></div>
+            <span class="category">Real world examples of java</span>
+            <div class="meta meta--preview">
+            </div>
+          </a>
+
+          <a class="grid__item" href="#">
+            <h2 class="title title--preview">References</h2>
+            <div class="loader"></div>
+            <span class="category">Page of References</span>
+            <div class="meta meta--preview">
+            </div>
+          </a>
+</div>
+</div>
+</div>
+
+ <div class="sidebar left">
+    <h3>Additional Info</h3>
+    <p>
+    The footer on each page of our website contains additional information that may be useful to you, each footer is the same on each page. Our telephone and Fax number as well as email are located in the footer of the site along with links to useful external sites.
+  </p>
+  <p>
+  In the footer there is links to Oracle who holds the rights to the java language. Stack Overflow, Geeks for Geeks and DZone are useful forums. The link to the compiler which we use through-out the website is located here called J-Doodle, each program is wrote on this online compiler and is embedded into pages.
+  </p>
+  </div>
+  
+  <div class="sidebar right">
+     <h3>Website Description</h3>
+     <p>
+  Welcome to the Java-Academy website, this website is focused on teaching basic java programming as well as the early and late history of java. This website has ten sections each with a specific function, as seen on the center of the page, you are allowed to navigate to each section of the website.
+</p>
+
+<p>This websites functionality includes, java downloads list which will allow you to download and install the latest versions of the Java & do exercises in java. There is help such as methods & code examples. There is a section on the history of java & a quiz related to this history. Finally there is a help page, IDE page, real world examples of java page and a reference page.</p>
+
+  </div>
+</div>
+
+  <!-- Main content -->
+  <section class="content">
+      <div class="scroll-wrap">
+        <article class="content__item">
+          <!-- content -->
+        </article>
+        <article class="content__item">
+          <!-- content -->
+        </article>
+        <!-- ... -->
+      </div>
+  </div>
+  </section>
+
+
+
+<footer>
+  <div class ="sectionf"> 
+        ©Copyright @ 2020 Java Academy
+        <br>
+        Terms of Use & Privacy Policy
+      </div>
+      <div class ="contactf">
+        Tel: (353 ) 064 6627334
+        <br>
+        Fax: (353 ) 064 6627350
+        <br>
+      Email: JavaAcademy@gmail.com</div>
+   <div class = "ui stackable grid">
+  <div class="mini"></div>
+  <div class="maxi">
+    <ul>
+      <h4>Java Academy</h4>
+    </ul>
+    <ul>
+      <li><a href="https://www.oracle.com/ie/java/" target="_blank">Oracle</a></li>
+      <li><a href="https://stackoverflow.com/" target="_blank">Stack Overflow</a></li>
+      <li><a href="https://www.geeksforgeeks.org/" target="_blank">Geeks for Geeks</a></li>
+      
+    </ul>
+    <ul>
+      <li><a href="https://github.com/" target="_blank">GitHub</a></li>
+      <li><a href="https://dzone.com/java-jdk-development-tutorials-tools-news" target="_blank">D Zone</a></li>
+      <li><a href="" target="_blank">Footer Link 3</a></li>
+      
+    </ul>
+    <ul>
+      <li><a href="" target="_blank">Footer Link 1</a></li>
+      <li><a href="" target="_blank">Footer Link 2</a></li>
+      <li><a href="" target="_blank">Footer Link 3</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script src="js/modernizr.custom.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/main.js"></script>
+<script src="js/fscript"></script>
+<script src="js/jquery.particleground.min.js"></script>
+<script src="js/jquery.logosDistort.js"></script>
+
+
+
+<script>
+jQuery(function($){
+       
+   $('.btn.left').click(function(event){
+        event.preventDefault();
+        $('body').toggleClass('left');
+    });
+
+    $('.btn.right').click(function(event){
+        event.preventDefault();
+        $('body').toggleClass('right');
+    });
+       
+}); 
+</script>
+
+<script>
+    var particles = {
+        dotColor: '#1ec5ee',
+        lineColor: '#0a4e90',
+        density: 20000,
+        parallax: true
+    };
+    var particleDensity;
+    var options = {
+            effectWeight: 1,
+            outerBuffer: 1.05,
+            elementDepth: 200,
+            perspectiveMulti: 1.5,
+            enableSmoothing: true,
+            onInit: function() {
+              $('#particle-target').particleground(particles);
+            }
+        };
+
+    $('#min-max-tag').click(function(){
+      if ($('#demo-menu').hasClass('closed')) {
+        $('#demo-menu').removeClass('closed').addClass('open');
+      } else {
+        $('#demo-menu').removeClass('open').addClass('closed');
+      }
+    });
+
+    $(document).ready(function() {
+
+      $('#demo1').logosDistort(options);
+
+    });
+</script>
+
+<script>
+  $( () => {
+  
+  //On <a href="https://www.jqueryscript.net/tags.php?/Scroll/">Scroll</a> Functionality
+  $(window).scroll( () => {
+    var windowTop = $(window).scrollTop();
+    windowTop > 100 ? $('nav').addClass('navShadow') : $('nav').removeClass('navShadow');
+    windowTop > 100 ? $('ul').css('top','100px') : $('ul').css('top','160px');
+  });
+  
+  //Click Logo To Scroll To Top
+  $('#logo').on('click', () => {
+    $('html,body').animate({
+      scrollTop: 0
+    },500);
+  });
+  
+  //Smooth Scrolling Using Navigation Menu
+  $('a[href*="#"]').on('click', function(e){
+    $('html,body').animate({
+      scrollTop: $($(this).attr('href')).offset().top - 100
+    },500);
+    e.preventDefault();
+  });
+  
+  //Toggle Menu
+  $('#menu-toggle').on('click', () => {
+    $('#menu-toggle').toggleClass('closeMenu');
+    $('ul').toggleClass('showMenu');
+    
+    $('li').on('click', () => {
+      $('ul').removeClass('showMenu');
+      $('#menu-toggle').removeClass('closeMenu');
+    });
+  });
+  
+});
+</script>
+
+
+</body>
+</html>

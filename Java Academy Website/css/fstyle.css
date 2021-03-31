@@ -1,0 +1,74 @@
+
+footer {
+  bottom: 0;
+  transition: all .5s linear;
+ 
+  height: 170px;
+  width:119em;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+footer .mini a {
+  display: block;
+  text-align: center;
+}
+footer .maxi {
+  overflow: none;
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+.Wit2{
+  height: 85px;
+  width:140px;
+}
+
+footer ul {
+  display: inline-block;
+  padding-right: 4rem;
+
+}
+
+footer {
+  background:  #fff;
+  font-size: 1em;
+  border-top: 1px solid grey;
+}
+
+
+footer ul {
+  list-style: none;
+}
+
+footer a {
+  color: grey;
+  display: block;
+  padding: .2em;
+  text-decoration: none;
+
+}
+
+
+
+@media all and (max-width: 750px) {
+  footer {
+
+  transition: all .5s linear;
+
+  height: 10em;
+  width:30.5em;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  font-size:0em;
+
+
+  }
+
+
+}

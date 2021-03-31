@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Java Arrays</title>
+<link rel="icon" href="images/ourjavalogo1.png">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<link rel="stylesheet" href="css/component.css">
+<link rel="stylesheet" type="text/css" href="css/fstyle.css" />
+<link rel="stylesheet" type="text/css" href="css/style1.css" />
+<link rel="stylesheet" type="text/css" href="css/styles.css" />
+<link rel="stylesheet" type="text/css" href="css/navstyles.css" />
+<link rel="stylesheet" type="text/css" href="css/Introductionstyle.css" />
+
+<style>
+body {
+  overflow-y: scroll;
+}
+
+img.nostyle {
+  border-radius: 50%;
+}
+
+img.logonavbar {
+  border-radius: 50%;
+  width:70px;
+  height: 70px;
+   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+img.nostyle {
+  border-radius: 30%;
+}
+</style>
+</head>
+
+<header>
+
+  <nav>
+    <div id="brand">
+      <div id="logo"><img src="images/ourjavalogo1.png" class="logonavbar"></div>
+      <div id="word-mark"></div>
+    </div>
+    <div id="menu">
+      <div id="menu-toggle">
+        <div id="menu-icon">
+
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </div>
+      
+    </div>
+  </nav>
+  <div id="hero-section">
+    <div id="head-line"></div>
+  </div>
+ 
+</header>
+
+<body class="cbp-spmenu-push">
+<div class="wrapper">
+  <div class="main"> <a href="#" class="btn left"><span class="left-open"></span>More </a> <a href="#" class="btn right"><span class="right-open"></span>More </a>
+    <div class="ui white button" id="showLeftPush"><i class="fas fa-bars"></i></button></div>
+    <h2>Java Arrays</h2>
+<p>
+  <span class = "datatype">Java Arrays</span> are used to assign multiple values to a single variable instead of making a separate variables for each value, <span class = "datatype">arrays</span> are declared using <span class = "datatype">square brackets</span> ([]).
+</p>
+<p> Below an array of String objects called cars has been declared.
+<p class ="codebox">
+  String[] cars;
+<br>
+</p>
+<p> To add values to this array, place them in a comma-separated list with curly braces.  </p>
+<p class ="codebox">
+String[] cars = {"BMW", "OPEL", "VOLKSWAGEN"}; //An array of strings
+<br>
+int[] ages = {12, 21, 19, 8}; //An array of integers
+</p>
+
+<h4>Accessing elements within an array</h4>
+<p><span class = "datatype">Elements</span> are the values within the array, each element can be accessed by using the <span class = "datatype">index number</span>. This code will access the first car in the array of cars. </p>
+<p> <span class = "datatype">Note arrays start at index 0 e.g. [0] is the first element with [1] being the second element</span></p>
+<p class ="codebox">public class MyNewClass {
+  <br>
+    public static void main(String[] args) {
+<br>
+String[] cars = {"BMW", "OPEL", "VOLKSWAGEN"}; //An array of strings
+<br>
+System.out.println(cars[0]); //Prints BMW
+<br>
+}
+<br>
+}
+</p>
+
+<h4>Change an element within an array</h4>
+<p>You can <span class = "datatype">change the value of a specific element</span> in an array <span class = "datatype">by using an index value</span>. Check below for an example. </p>
+<p class ="codebox">public class MyNewClass {
+  <br>
+    public static void main(String[] args) {
+<br>
+String[] cars = {"BMW", "OPEL", "VOLKSWAGEN"}; //An array of strings
+<br>
+cars[0] = "Mazda";
+<br>
+System.out.println(cars[0]); //Prints Mazda instead of BMW
+<br>
+}
+<br>
+}
+</p>
+
+<h4>Array length</h4>
+<p>Like a string,<span class = "datatype"> arrays are non-primitive</span> and have methods that can be used on them, one we have seen before is<span class = "datatype">length</span>. This <span class = "datatype">returns the amount of elements within an array</span>. e.g. </p>
+<p class ="codebox">public class MyNewClass {
+  <br>
+    public static void main(String[] args) {
+<br>
+String[] cars = {"BMW", "OPEL", "VOLKSWAGEN"}; //An array of strings
+<br>
+System.out.println(cars.length); //Prints amount of elements in the car array
+<br>
+}
+<br>
+}
+</p>
+  </div>
+  
+  <div class="sidebar left">
+    <h3>Additional Info</h3>
+    <p>
+    The footer on each page of our website contains additional information that may be useful to you, each footer is the same on each page. Our telephone and Fax number as well as email are located in the footer of the site along with links to useful external sites.
+  </p>
+  <img src="images/iconAdditonalinfo.png" width="400" height="400" class="nostyle"> 
+  <p>
+  In the footer there is links to Oracle who holds the rights to the java language. Stack Overflow, Geeks for Geeks, DZone and the Oracle help center are useful forums and tools for learning java. The link to the compiler which we use through-out the website is located here called J-Doodle, each program is wrote on this online compiler and is embedded into pages.
+  </p>
+  </div>
+  <div class="sidebar right">
+    <h3>Java Arrays</h3>
+ 
+<p>
+This page focuses on Java Arrays which as stated in the start of the main section will allow you to assign multiple values to a single element. Arrays can be created with a fixed length 
+eg String[3]cars will create an array which can hold three values </p>
+<img src="images/arrayimg.png" width="400" height="400" class="nostyle"> 
+<p>The way in which we will show in the main section is where the array will expand to the amount of elements you add, but again this array is also of a fixed size to the amount of elements you add eg String[]cars{"BMW", "OPEL", "VOLKSWAGEN", "HYUNDAI"}, a fixed array with the size of four. The image from BeginnersBook will help you to visualize how an array functions.
+</p>
+
+  </div>
+</div>
+
+
+
+<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+
+      <h3>Java Academy</h3>
+
+     <a class = "active item" href="index.html">Home |</a>
+      <a class = "item" href="javadownloads.html">Java Downloads |</a>
+      <a class = "item" href="javaIntroduction.html">Java Introduction |</a>
+      <a class ="item" href="Exercisepage.html">Java Exercises |</a>
+      <a class = "item" href=" ">Code Examples |</a>
+      <a class = "item" href="History.html">Java History |</a>
+      <a class = "item" href="Quiz.html">Java Quiz |</a>
+      <a class = "item" href="HelpPage.html">Help |</a>
+      <a class = "item" href="IDEPage.html">IDES |</a>
+      <a class = "item" href="RealWExamples.html">Java Implemented |</a>
+      <a class = "item" href="Disclaimer.html">Disclaimer Page |</a>
+    </nav>
+
+<footer>
+  <div class ="sectionf"> 
+    <div class="img-with-text">
+      <a href="Disclaimer.html">
+      <img class="Wit2" src="images/Wit.jpg" >
+     <p><h3>Disclaimer Page</h3></p>
+     </a>
+   </div>
+        <br>
+        
+        <br>
+       
+
+      </div>
+      <div class ="contactf">
+        
+        <br>
+      Email: Izaac Doyle : 20080408@mail.wit.ie
+      <br>
+      Email: Evan Casey : 20088873@mail.wit.ie
+      <br>
+    </div>
+   <div class = "ui stackable grid">
+  <div class="mini"></div>
+  <div class="maxi">
+    <ul>
+      <h4>Java Academy</h4>
+    </ul>
+   <ul>
+      <li><a href="https://www.jdoodle.com/" target="_blank">Jdoodle</a></li>
+       <li><a href="https://codeinstitute.net/blog/top-tips-learning-java-programming/" target="_blank">Java Tips</a></li>
+      <li><a href="https://dzone.com/java-jdk-development-tutorials-tools-news" target="_blank">DZone</a></li>
+      
+    </ul>
+    <ul>
+      <li><a href="https://docs.oracle.com/en/" target="_blank">Oracle Help Center</a></li>
+      <li><a href="https://www.geeksforgeeks.org/" target="_blank">Geeks for Geeks</a></li>
+      <li><a href="https://stackoverflow.com/" target="_blank">Stack Overflow</a></li>
+      
+    </ul>
+  </div>
+</footer>
+<!-- end .wrapper --> 
+ <script src="js/classie.js"></script>
+    <script src="js/main.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
+<script src="https://www.jdoodle.com/assets/jdoodle-pym.min.js" type="text/javascript"></script>
+<script>
+jQuery(function($){
+       
+   $('.btn.left').click(function(event){
+        event.preventDefault();
+        $('body').toggleClass('left');
+    });
+
+    $('.btn.right').click(function(event){
+        event.preventDefault();
+        $('body').toggleClass('right');
+    });
+       
+}); 
+</script>
+
+<script>
+  $( () => {
+  
+  //On <a href="https://www.jqueryscript.net/tags.php?/Scroll/">Scroll</a> Functionality
+  $(window).scroll( () => {
+    var windowTop = $(window).scrollTop();
+    windowTop > 100 ? $('nav').addClass('navShadow') : $('nav').removeClass('navShadow');
+    windowTop > 100 ? $('ul').css('top','100px') : $('ul').css('top','160px');
+  });
+  
+  //Click Logo To Scroll To Top
+  $('#logo').on('click', () => {
+    $('html,body').animate({
+      scrollTop: 0
+    },500);
+  });
+  
+  //Smooth Scrolling Using Navigation Menu
+  $('a[href*="#"]').on('click', function(e){
+    $('html,body').animate({
+      scrollTop: $($(this).attr('href')).offset().top - 100
+    },500);
+    e.preventDefault();
+  });
+  
+  //Toggle Menu
+  $('#menu-toggle').on('click', () => {
+    $('#menu-toggle').toggleClass('closeMenu');
+    $('ul').toggleClass('showMenu');
+    
+    $('li').on('click', () => {
+      $('ul').removeClass('showMenu');
+      $('#menu-toggle').removeClass('closeMenu');
+    });
+  });
+  
+});
+</script>
+
+<script>//sidemenu left push 
+var menuLeft = document.getElementById('cbp-spmenu-s1' ),
+showLeftPush = document.getElementById( 'showLeftPush' ),
+body = document.body;
+var menuLeft = document.getElementById('cbp-spmenu-s1' ),
+body = document.body;
+showLeftPush.onclick = function() {
+  classie.toggle( this, 'active' );
+  classie.toggle( body, 'cbp-spmenu-push-toright' );
+  classie.toggle( menuLeft, 'cbp-spmenu-open' );
+  disableOther( 'showLeftPush' );
+};
+
+function disableOther( button ) {
+  if( button !== 'showLeftPush' ) {
+    classie.toggle( showLeftPush, 'disabled' );
+  }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+body, html {
+  width:100%;
+  height:100%;
+  margin: 0;
+  padding: 0;
+}
+
+header, nav, h1 {
+  color:white;
+}
+
+body{
+  font:16px/1.6 Comic Sans MS,  sans-serif;
+  background-color: #E6E6FA;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 0;
+  min-height: 100%;
+  font-family: "Comic Sans MS", Arial, sans-serif;
+  overflow-x: hidden;
+
+}
+
+* { box-sizing: border-box; }
+
+
+.wrapper {
+  height: 100%;
+
+}
+
+
+.sectionf {
+  float: right;
+  padding: 10px;
+}
+
+.contactf {
+  float:right;
+  text-align: left;
+  padding:5px;
+}
+
+
+
+/*** <a href="https://www.jqueryscript.net/tags.php?/Navigation/">Navigation</a> Styles ***/
+
+nav {
+  width: 100vw;
+  height: 120px;
+  background: #20B2AA;
+  position: relative;
+  display: <a href="https://www.jqueryscript.net/tags.php?/grid/">grid</a>;
+  grid-template-columns: 1fr 1fr;
+  z-index: 10;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border-bottom: 1px solid black;
+}
+
+nav.navShadow {
+  -webkit-box-shadow: 0 4px 30px -5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 30px -5px rgba(0, 0, 0, 0.2);
+  height: 100px;
+}
+
+nav.navShadow #word-mark { opacity: 0; }
+
+#brand, #menu, ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#brand { padding-left: 40px;
+padding-top: 20px; }
+
+#logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#word-mark {
+  width: 120px;
+  height: 20px;
+  background: #fff;
+  border-radius: 90px;
+  margin-left: 20px;
+  opacity: 1;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+/*** <a href="https://www.jqueryscript.net/menu/">Menu</a> Styles ***/
+
+#sidebar.sticky {
+  position: fixed;
+}
+
+
+
+
+
+
+
+
+
+

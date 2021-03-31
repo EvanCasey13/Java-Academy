@@ -1,0 +1,97 @@
+
+.javaul {
+  text-decoration: none;
+  color: #A668A6;
+  list-style-type: circle;
+    
+}
+
+
+
+a {
+	text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+  color: grey;
+}
+
+/* visited link */
+a:visited {
+  color:grey;
+}
+
+/* mouse over link */
+a:hover {
+  color: #20B2AA;
+}
+
+/* selected link */
+a:active {
+  color: #A668A6;
+}
+
+h4 {
+	border-bottom: 1px solid grey;
+}
+
+.main,
+.sidebar {
+  position: relative;
+
+  float: left;
+ }
+
+.main {
+  position: relative;
+  height: 100%;
+  bottom: 0;
+  top: 0;
+  padding-bottom: 0.7em;
+  width: 75%;
+  background: white;
+  margin-left: 10%;
+}
+
+.sidebar {
+  text-align: justify;
+  height: 100%;
+  width: 25%;
+  background:#F0FFFF;
+  color:  #708090;
+
+  
+}
+
+
+.sidebar.left{ margin-left: -85%;
+width:10%;
+height: 50%;
+padding-bottom: 18.2em;
+ }
+
+.sidebar.right { float: right;
+width:15%; 
+
+}
+
+@media only screen and (max-width: 1800px) {
+  .sidebar.left {display: none;}
+
+  .sidebar.right {display: none;}
+  }
+
+/*** <a href="https://www.jqueryscript.net/tags.php?/Navigation/">Navigation</a> Styles ***/
+
+h5 {
+	text-decoration: underline;
+	color: #B0C4DE;
+}
+
+img {
+	border-radius: 8px;
+	border: 1px solid grey;
+	
+right: 2em;
+}
